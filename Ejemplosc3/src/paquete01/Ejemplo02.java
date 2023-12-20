@@ -30,7 +30,7 @@ public class Ejemplo02 {
 
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
-                System.out.print("Ingreso en la posicion numero "+fila+","+col);
+                System.out.println("Ingreso en la posicion numero "+fila+","+col);
                 ingreso = entrada.nextInt();
                 arreglo1[fila][col] = ingreso;
             }
