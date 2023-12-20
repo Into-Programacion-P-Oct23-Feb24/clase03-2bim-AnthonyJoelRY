@@ -18,7 +18,7 @@ public class Ejemplo002 {
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 int c = 0;
-                if (arreglo1[fila][col] == 10 || arreglo1[fila][col] == 2 || arreglo1[fila][col] == 4) {
+                if (fila==col) {
                     suma = suma + arreglo1[fila][col];
                 }
             }
